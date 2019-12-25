@@ -1,0 +1,232 @@
+html
+{
+	scroll-behavior: smooth;
+}
+#navbar
+{
+	background-color:white;
+}
+
+#collapsibleNavbar ul li a
+{
+ margin-right:20px;
+ color:black;
+font-style:oblique;
+ 
+}
+#placesearch
+{
+	background-color:lightblue;
+	border-radius:30px;
+	width:700px;
+	height:70px;
+	margin-top:-50px;
+	z-index:1;
+	position: relative;
+	
+}
+#btn
+{
+	width:170px;
+	height:38px;
+	border:none;
+	border-radius:30px;
+	background-color:red;
+	color:white;
+	
+}
+@media only screen and (max-width: 610px) {
+  #placesearch {
+	  background-color:lightblue;
+	border-radius:30px;
+	width:480px;;
+	height:160px;
+	margin-top:-50px;
+	z-index:1;
+	position: relative;
+   
+  }
+}
+@media only screen and (max-width: 610px) {
+  #btn {
+	  width:130px;
+	height:38px;
+	border:none;
+	border-radius:30px;
+	background-color:red;
+	color:white;
+   
+  }
+}
+
+
+
+#div1 {
+  
+  position: relative;
+  -webkit-animation-name: example; 
+  -webkit-animation-duration: 1s;  
+  -webkit-animation-fill-mode: forwards; 
+  animation-name: example;
+  animation-duration: 1s;  
+  animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes example {
+  from {left: -100%}
+  to {left: 0%;}
+}
+
+@keyframes example {
+  from {left: -100%;}
+  to {left: 0%; }
+}
+#div2 {
+  
+  position: relative;
+  -webkit-animation-name: example2; 
+  -webkit-animation-duration: 1s;  
+  -webkit-animation-fill-mode: forwards; 
+  animation-name: example2;
+  animation-duration: 1s;  
+  animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes example2 {
+  from {right: -100%}
+  to {right: 0%;}
+}
+
+@keyframes example2 {
+  from {right: -100%;}
+  to {right: 0%; }
+}
+#placesearch{
+  
+  position: relative;
+  -webkit-animation-name: example3; 
+  -webkit-animation-duration: 3s;  
+  -webkit-animation-fill-mode: forwards; 
+  animation-name: example3;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes example3 {
+  from {opacity:0%;}
+  to {opacity: 100%;}
+}
+
+@keyframes example3 {
+  from {left: -100%;}
+  from {opacity:0%;}
+  to {opacity: 100%;}
+}
+#caption2
+{
+	width:200px;
+	height:30px;
+	background-color:lightblue;
+	color:white;
+}
+#caption3
+{
+	width:120px;
+	height:40px;
+	color:black;
+	border:2px solid black;
+}
+#since
+{
+	background-color:lightgrey;
+	border-radius:20px;
+}
+#awards
+{
+	background-color:lightgoldenrodyellow;
+    border-radius:20px;
+}
+#person
+{
+	background-color:lightgrey;
+	border-radius:20px;
+}
+#about1
+{
+	background-image: url("image/aboutbg.jpg");
+	color:white;
+	
+}
+
+#caption4
+{
+
+
+	width:150px;
+	height:40px;
+	color:black;
+	border:2px solid black;
+
+}
+.checked {
+  color: orange;
+}
+#button1
+{
+	width:100px;
+	height:30px;
+	border:none;
+	text-align: center;
+	color:white;
+	background-color:red;
+}
+#button2
+{
+	width:100px;
+	height:30px;
+	border:none;
+	text-align: center;
+	color:white;
+	background-color:red;
+}
+span h5
+{
+	color:grey;
+}
+#footer
+{
+	color:white;
+	background-color:grey;
+}
+#subscribe
+{
+	border:none;
+	background-color:white;
+}
+#email
+{
+	width:200px;
+	height:50px;
+}
+#subscribe
+{
+	width:150px;
+	height:50px;
+	background-color:orangered;
+	
+}
+#person1{
+	padding-top:-100px;
+	padding-left: 28px;
+}
+#person2{
+	padding-top:-100px;
+	padding-left: 28px;
+}
+#person3{
+	padding-top:-100px;
+	padding-left: 28px;
+}

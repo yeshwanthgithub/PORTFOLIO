@@ -1,0 +1,114 @@
+html
+{
+	scroll-behavior: smooth;
+}
+#login p
+{
+	color:black;
+	font-weight: bold;
+	width:140px;
+	height:30px;
+	
+}
+#login a
+{
+	text-decoration: none;
+	
+}
+#login p:hover
+{
+	background-color:#fa2222;
+	
+	
+}
+#div1
+{
+	background-color:whitesmoke;
+}#collapsibleNavbar ul li
+{
+	margin-right:80px;
+}
+#clothes
+{
+	font-size:51px;
+	color:grey;
+	text-align:center;
+}
+#gender
+{
+	color:white;
+	font-weight:bold;
+}
+#clothes1 p
+{
+	color:black;
+	font-weight: bold;
+	text-align:center;
+}
+#clothes2 p
+{
+	color:black;
+	font-weight: bold;
+	text-align:center;
+}
+#clothes11
+{
+
+}
+#electronic
+{
+	font-size:51px;
+	color:grey;
+	text-align:center;
+}
+#electronic11 p
+{
+	color:black;
+	font-weight: bold;
+	text-align:center;
+}
+@media screen and (max-width: 600px) {
+ #electronic
+{
+	font-size:50px;
+	color:grey;
+	text-align:right;
+}
+}
+#brand
+{
+	
+	color:grey;
+}
+#brand h5
+{
+	font-size:35px;
+}
+#footer p a
+{
+	text-decoration: none;
+	color:black;
+}
+#footer h6
+{
+	color:black;
+	font-weight:bold;
+}
+#footer
+{
+	background-color: whitesmoke;
+}
+#subscribe
+{
+	width:260px;
+	height:30px;
+	border:1px solid rgba(0,0,0,1.00);
+}
+#subscribe1{
+	width:100px;
+	height:30px;
+	color:white;
+	background-color:black;
+	border:none;
+	
+}
